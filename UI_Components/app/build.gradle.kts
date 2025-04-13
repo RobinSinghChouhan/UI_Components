@@ -39,7 +39,8 @@ android {
     }
 }
 
-dependencies {
+dependencies {// or latest version
+    implementation(libs.coil.compose) // or the latest version
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
